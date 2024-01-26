@@ -1,0 +1,152 @@
+@media screen and (max-width:991px) {
+    .nav-icon {
+        display: block;
+        margin-right: 20px;
+    }
+
+    .main-nav {
+        overflow: initial;
+    }
+
+    .nav-link {
+        position: absolute;
+        background-color: white;
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 100px;
+        transition: 0.2s ease-in-out;
+    }
+
+    .nav-link.active {
+        left: 0;
+    }
+
+    .nav-link ul {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .main-nav {
+        margin-inline: 20px;
+    }
+
+    .examples-section-box {
+        gap: 20px;
+    }
+
+    .examples-section-image {
+        width: calc(50% - 10px);
+        height: 180px;
+    }
+
+    .cta-section {
+        padding-block: 80px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    h4 {
+        font-size: 1rem;
+    }
+
+    .header {
+        flex-direction: column-reverse;
+        padding-top: 0;
+    }
+
+    .header-left {
+        max-width: 90vw;
+        text-align: center;
+    }
+
+    .primary-button {
+        width: 100%;
+    }
+
+    .header-right img {
+        width: 80vw;
+    }
+
+    .welcome-icon img {
+        width: 150px;
+        height: 90px;
+    }
+
+    .feature-section {
+        background-image: none;
+    }
+
+    .feature-logo {
+        min-width: calc(50% - 10px);
+    }
+
+    .big-feature-section {
+        padding: 10px var(--padding-inline-section) 20px;
+    }
+
+    .big-feature-section-container {
+        flex-direction: column !important;
+        gap: 30px;
+    }
+
+    .big-feature-section-item {
+        align-items: center;
+    }
+
+    .big-feature-section-item p {
+        align-items: center;
+    }
+
+    .footer-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-data {
+        align-items: center;
+    }
+    .first-icon {
+        display: none;
+    }
+
+    .welcome-icon {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:448px) {
+    :root {
+        --padding-inline-section: 10px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.75rem;
+    }
+
+    h4 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: medium;
+    }
+
+    .feature-logo {
+        min-width: 100%;
+    }
+
+    .examples-section-image {
+        width: 100%;
+    }
+
+}
